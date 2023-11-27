@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Team-Forge-Solutions/static/css/main.382d6743.css",
+    "main.js": "/Team-Forge-Solutions/static/js/main.60afa66f.js",
+    "static/js/787.fe0896d5.chunk.js": "/Team-Forge-Solutions/static/js/787.fe0896d5.chunk.js",
+    "index.html": "/Team-Forge-Solutions/index.html",
+    "main.382d6743.css.map": "/Team-Forge-Solutions/static/css/main.382d6743.css.map",
+    "main.60afa66f.js.map": "/Team-Forge-Solutions/static/js/main.60afa66f.js.map",
+    "787.fe0896d5.chunk.js.map": "/Team-Forge-Solutions/static/js/787.fe0896d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.382d6743.css",
+    "static/js/main.60afa66f.js"
+  ]
+}
