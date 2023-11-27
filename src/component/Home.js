@@ -25,7 +25,7 @@ focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 p
         </button>
       </div>
 
-      <div className='lg:w-[25rem] ml-1 mr-1 mt-[1rem] lg:h-[25rem] flex  flex-row gap-1 md:mr-5'>
+      <div className='lg:w-[25rem] ml-auto mr-auto mt-[1rem] lg:h-[25rem] flex  flex-row gap-1 md:mr-5'>
         <div className='flex flex-col gap-1'>
           <img src="1.jpg" alt="" className='w-[9rem] h-[9rem] lg:w-[12rem] lg:h-[12rem] rounded-lg' />
           <img src="5.jpg" alt="" className=' w-[9rem] h-[11rem] lg:w-[12rem] lg:h-[14rem] rounded-lg' />

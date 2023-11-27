@@ -17,19 +17,20 @@ function Mission() {
         
         <h2 class="text-xl md:text-2xl lg:text-4xl text-indigo-500 "><b>Meilleure Expérience Client</b></h2>
       </div>
-      <div className='w-[100%] h-[71rem] mt-3 flex flex-col items-center gap-6
- md:flex-row md:flex-wrap md:justify-center md:content-start  md:h-[49rem]
- lg:gap-[2rem] lg:h-[24rem]
- lg:mb-[3rem]'>
-        {missions.map((e) => {
-          return <div key={e.title} className=' w-[16rem]   h-[14rem] shadow-xl'>
-            <img src={`${e.icon}.png`} key={e.title} alt="" className='text-orange-500 mt-2 w-[2.8rem] h-[2.8rem] ml-auto mr-auto ' />
-            <h3  key={e.title} className=' font-bold  text-center mt-2 lg:mt-[0.7rem]  lg:text-xl'>{e.title}</h3>
-            <p  key={e.title} className=" text-[23px] w-[14rem] 5 ml-auto mr-auto mt-2 text-center">{e.content}</p>
-          </div>
-        })}
-
+      <div className='w-[68%] ml-auto mr-auto mt-3 grid grid-cols-1 gap-6
+       items-center justify-items-center sm:grid-cols-2 sm:gap-4 sm:justify-content-center
+        sm:content-start lg:grid-cols-3 lg:gap-8 lg:mb-12'>
+  {missions.map((e) => {
+    return (
+      <div key={e.title} className='w-[16rem] flex flex-col h-full shadow-xl'>
+        <img src={`${e.icon}.png`} key={e.title} alt="" className='text-orange-500 mt-2 w-[2.8rem] h-[2.8rem] mx-auto' />
+        <h3 key={e.title} className='font-bold text-center mt-2 lg:mt-[0.7rem] lg:text-xl'>{e.title}</h3>
+        <p key={e.title} className="text-[21px] w-[14rem] mb-4 mx-auto mt-2 text-center">{e.content}</p>
       </div>
+    );
+  })}
+</div>
+
     </div>
       </Zoom>
 
