@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Team-Forge-Solutions/static/css/main.dfaf2c3d.css",
-    "main.js": "/Team-Forge-Solutions/static/js/main.a1587b28.js",
-    "static/js/787.fe0896d5.chunk.js": "/Team-Forge-Solutions/static/js/787.fe0896d5.chunk.js",
-    "index.html": "/Team-Forge-Solutions/index.html",
-    "main.dfaf2c3d.css.map": "/Team-Forge-Solutions/static/css/main.dfaf2c3d.css.map",
-    "main.a1587b28.js.map": "/Team-Forge-Solutions/static/js/main.a1587b28.js.map",
-    "787.fe0896d5.chunk.js.map": "/Team-Forge-Solutions/static/js/787.fe0896d5.chunk.js.map"
+    "main.css": "/static/css/main.0cdacaff.css",
+    "main.js": "/static/js/main.f49a4342.js",
+    "static/js/787.fe0896d5.chunk.js": "/static/js/787.fe0896d5.chunk.js",
+    "index.html": "/index.html",
+    "main.0cdacaff.css.map": "/static/css/main.0cdacaff.css.map",
+    "main.f49a4342.js.map": "/static/js/main.f49a4342.js.map",
+    "787.fe0896d5.chunk.js.map": "/static/js/787.fe0896d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfaf2c3d.css",
-    "static/js/main.a1587b28.js"
+    "static/css/main.0cdacaff.css",
+    "static/js/main.f49a4342.js"
   ]
 }
