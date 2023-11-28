@@ -7,7 +7,7 @@ const datas = [
     },
     { id:2 ,
         title: "Événements Familiaux",
-        content: 'Célébrez les moments spéciaux de la vie avec élégance et style, que ce soit un anniversaire, une réunion familiale, ou une baby shower',
+        content: 'Célébrez les moments spéciaux de la vie avec élégance et style, que ce soit un anniversaire, une réunion familiale, ou baby shower',
         picture: "baby"
     },
     { id: 3,

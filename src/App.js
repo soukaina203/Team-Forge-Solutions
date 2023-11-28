@@ -5,12 +5,12 @@ import Mission from './component/Mission'
 import About from './component/About'
 import Services from './component/Services'
 import Contact from './component/Contact'
+import WhyUs from './component/WhyUs'
 
 
 function App() {
   return (
-    <div className='flex flex-col gap-5 md:gap-0'>
-  <h1 className='underline'>  </h1>
+    <div className='flex flex-col gap-5 md:gap-0 '>
     <Header/>
     <Home/>
     <Mission/>

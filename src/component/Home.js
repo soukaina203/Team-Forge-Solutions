@@ -6,9 +6,10 @@ function Home() {
   return (
     <Zoom>{/*Using Zoom Effect*/}
 
-    <div id='home' className='w-[100%] md:h-[27rem] lg:h-[30rem] mt-[1.8rem]   md:mt-[4.5rem] flex flex-col md:flex-row  justify-evenly'>
+    <div id='home' className='w-[100%]  
+   h-full mt-[1.8rem]   md:mt-[4.5rem] flex flex-col md:flex-row  justify-center  '>
 
-      <div className='w-[100%] md:w-[32rem] h-fit md:mt-[5rem] md:ml-6 lg:ml-12 '>
+      <div className='w-[100%] md:w-[32rem] h-fit md:mt-[5rem] md:ml-6 lg:ml-[8%]  '>
         <h1 className='text-xl font-bold text-center mt-[1rem] text-transparent md:text-left lg:text-4xl bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'> Cohésion, Création, Conquête
           C'est L'action de
           TF-SOL </h1>
@@ -25,7 +26,7 @@ focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 p
         </button>
       </div>
 
-      <div className='lg:w-[25rem] ml-auto mr-auto mt-[1rem] lg:h-[25rem] flex  flex-row gap-1 md:mr-5'>
+      <div className='lg:w-[25rem] ml-auto mr-auto mt-[1rem]  lg:h-[25rem] flex  flex-row gap-1 md:mr-5'>
         <div className='flex flex-col gap-1'>
           <img src="1.jpg" alt="" className='w-[9rem] h-[9rem] lg:w-[12rem] lg:h-[12rem] rounded-lg' />
           <img src="5.jpg" alt="" className=' w-[9rem] h-[11rem] lg:w-[12rem] lg:h-[14rem] rounded-lg' />
