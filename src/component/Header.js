@@ -5,7 +5,7 @@ import { GiFilmSpool, GiHamburgerMenu } from "react-icons/gi";
 function Header() {
   return (
     <div>
-       <nav className="fixed top-0 left-0 z-50 w-full bg-white shadow-lg shadow-purple-200">
+       <nav className="fixed top-0 z-50 w-full bg-white shadow-lg shadow-purple-200">
       <div className="container flex items-center justify-between m-auto ">
         <h1 className="flex gap-2 py-4 pl-8 text-2xl font-bold text-transparent cursor-pointer md:ml-0 flew-row bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
           TF-SOL

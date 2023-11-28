@@ -13,7 +13,7 @@ const datas = [
     { id: 3,
         title: "Conférences et Séminaires",
         content: 'Organisez des événements professionnels mémorables qui laisseront une impression durable sur vos collaborateurs et partenaires.',
-        picture: "festivale"
+        picture: "conference"
     },
     { id:4 ,
         title: "Lancements de Produits ",
@@ -23,7 +23,7 @@ const datas = [
     { id: 5,
         title: "Festivals et Concerts",
         content: ' Créez une expérience immersive pour les amateurs de musique et de divertissement.',
-        picture: "conference"
+        picture: "festivale"
     },
     { id:6 ,
         title: "Événements Caritatifs",

@@ -13,7 +13,7 @@ function Services() {
           <b>Meilleure Services Client</b></h2>
       </div>
 
-      <div className='container grid justify-center grid-cols-1 p-10 mx-auto duration-500 transform place-items-center md:p-20 lg:grid-cols-2 2xl:grid-cols-3 gap-x-8 w-quto '>
+      <div className='container grid justify-center w-auto grid-cols-1 p-10 mx-auto duration-500 transform place-items-center md:p-8 lg:grid-cols-2 2xl:grid-cols-3 gap-x-4 gap-y-4 '>
         
           {datas.map((e)=>{
             return   <div key={e.id} className='h-full max-w-sm pb-12 mx-auto my-auto duration-300 transform shadow-md cursor-pointer hover:-translate-y-1n p-7 hover:shadow-xl'>
