@@ -18,8 +18,8 @@ function Home() {
         lg:text-4xl bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'> Cohésion, Création, Conquête
           C'est L'action de
           TF-SOL </h1>
-        <p className=' max-w-2xl text-[19px]  font-normal text-gray-500 mb-2 md:text-lg lg:text-xl dark:text-gray-400 
-        w-[20rem]   md:font-semibold md:text-black mt-2'>Votre partenaire privilégié pour la création
+        <p className='  text-[22px]  w-full max-w-sm md:max-w-md lg:max-w-xl   text-gray-500 mb-2 md:text-lg lg:text-xl dark:text-gray-400 
+         md:font-semibold  md:text-black mt-2'>Votre partenaire privilégié pour la création
           d'événements exceptionnels et mémorables.</p>
 
         <button type="button" class=" text-white  font-medium  hover:bg-[#24292F]/90 focus:ring-4 
@@ -34,7 +34,7 @@ focus:outline-none focus:ring-[#24292F]/50  rounded-lg text-md px-5 py-2 text-ce
 
 
 
-      <div className='hidden lg:mt-0 md:col-span-5 md:flex  gap-1 md: mt-[1rem]'>
+      <div className='hidden  md:col-span-5 md:flex  gap-1 md:mt-[2rem] lg:mt-0'>
         <div className='flex flex-col gap-1'>
           <img src="1.jpg" alt="" className='w-[9rem] h-[9rem] lg:w-[12rem] lg:h-[12rem] rounded-lg' />
           <img src="5.jpg" alt="" className=' w-[9rem] h-[11rem] lg:w-[12rem] lg:h-[14rem] rounded-lg' />

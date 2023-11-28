@@ -12,7 +12,7 @@ function Contact() {
   ]
   return (
     <Zoom>
-    <div id='contact' className='w-[100%] h-full  flex lg:items-center  '>
+    <div id='contact' className='flex w-full h-full lg:items-center '>
 
       <div className='w-[100%] h-[10rem] mt-3 flex flex-col items-center gap-6 lg:mt-7
  md:flex-row md:flex-wrap md:justify-center md:content-start  md:h-[23rem] md:items-center
