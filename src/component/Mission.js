@@ -26,7 +26,8 @@ function Mission() {
 
         <img src={`${e.icon}.png`} key={e.title} alt="" className='text-orange-500 mt-2 w-[2.8rem] h-[2.8rem] mx-auto' />
         <h3 key={e.title} className='font-bold text-center mt-2 lg:mt-[0.7rem] lg:text-xl'>{e.title}</h3>
-        <p key={e.title} className="text-[21px] w-[14rem] mb-4 mx-auto mt-2 text-center">{e.content}</p>
+        <p key={e.title} 
+        className="text-[21px] w-[14rem] mb-4 mx-auto mt-2 text-center">{e.content}</p>
       </div>
     );
   })}

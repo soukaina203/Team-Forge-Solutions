@@ -13,13 +13,16 @@ function Services() {
           <b>Meilleure Services Client</b></h2>
       </div>
 
-      <div className='container grid justify-center w-auto grid-cols-1 p-10 mx-auto duration-500 transform place-items-center md:p-8 lg:grid-cols-2 2xl:grid-cols-3 gap-x-4 gap-y-4 '>
+      <div className='container grid justify-center w-auto
+       grid-cols-1 p-10 mx-auto duration-500 transform place-items-center
+        md:p-8 lg:grid-cols-2 2xl:grid-cols-3 gap-x-6 gap-y-6 '>
         
           {datas.map((e)=>{
-            return   <div key={e.id} className='h-full max-w-sm pb-12 mx-auto my-auto duration-300 transform shadow-md cursor-pointer hover:-translate-y-1n p-7 hover:shadow-xl'>
+            return   <div key={e.id} className='h-full max-w-sm pb-6 mx-auto my-auto duration-300
+             transform shadow-md cursor-pointer hover:-translate-y-1n p-7 hover:shadow-xl'>
             <img  src={`${e.picture}.jpg`} alt="" className='w-[16rem] mt-3 h-[15rem] rounded-lg mr-auto ml-auto' />
-            <h3  className='font-semibold text-[23px] mt-2 ml-3'>{e.title}</h3>
-            <p   className='ml-3 mr-3 text-[21px] mb-3'> {e.content} </p>
+            <h3  className='font-semibold text-center text-[23px] mt-2 '>{e.title}</h3>
+            <p   className=' text-center text-[21px] mb-3'> {e.content} </p>
           </div>
           })}
          </div>

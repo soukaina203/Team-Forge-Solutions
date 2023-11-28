@@ -6,6 +6,9 @@ import About from './component/About'
 import Services from './component/Services'
 import Contact from './component/Contact'
 import WhyUs from './component/WhyUs'
+import Team from './component/Team'
+import TeamBuilding from './component/TeamBuilding'
+import Global from './component/Global'
 
 
 function App() {
@@ -13,7 +16,12 @@ function App() {
     <div className='flex flex-col gap-5 md:gap-0 '>
     <Header/>
     <Home/>
+    <About/>
+
+{/* <WhyUs/> */}
     <Mission/>
+  <Global/>
+
     <Services/>
     <Contact/>
 

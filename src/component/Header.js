@@ -7,16 +7,19 @@ function Header() {
     <div>
        <nav className="fixed top-0 z-50 w-full bg-white shadow-lg shadow-purple-200">
       <div className="container flex items-center justify-between m-auto ">
-        <h1 className="flex gap-2 py-4 pl-8 text-2xl font-bold text-transparent cursor-pointer md:ml-0 flew-row bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
+        <h1 className="flex gap-2 py-4 pl-8 text-2xl font-bold text-transparent cursor-pointer md:ml-0 flew-row bg-clip-text bg-gradient-to-r
+         from-indigo-500 via-purple-500 to-pink-500 ">
           TF-SOL
         </h1>
         <ul className="items-center hidden pr-10 text-base font-semibold cursor-pointer lg:flex">
           <li className="px-6 py-4 duration-500 underlineHover hover:pointer-auto" > <Link to="home" smooth={true} offset={-100} duration={500}>  Acceuil </Link> </li>
+          <li className="px-6 py-4 duration-500 underlineHover hover:pointer-auto" > <Link to="about" smooth={true} offset={-100} duration={500}>  A Propos </Link> </li>
           <li className="px-6 py-4 duration-500 underlineHover" > <Link to="mission" smooth={true} offset={-100} duration={500}>  Mission </Link> </li>
+          <li className="px-6 py-4 duration-500 underlineHover" > <Link to="team" smooth={true} offset={-100} duration={500}>  Team </Link> </li>
           <li className="px-6 py-4 duration-500 underlineHover" > <Link to="services" smooth={true} offset={-100} duration={500}>  Services </Link> </li>
           <li className="px-6 py-4 duration-500 underlineHover" > <Link to="contact" smooth={true} offset={-100} duration={500}>  Contact </Link> </li>
         </ul>
-    
+        
 
         {/* phone & tablet */}
         <button className=" lg:hidden group">
@@ -31,12 +34,25 @@ function Header() {
                   Home
                 </Link>
               </li>
-             
+
+              <li className="w-full px-6 py-4 duration-500 ">
+                <Link to="about" smooth={true} duration={400}>
+                A Propos
+                </Link>
+              </li>
+              
               <li className="w-full px-6 py-4 duration-500">
                 <Link to="mission" smooth={true} offset={-200} duration={400}>
                 Mission
                 </Link>
               </li>
+
+              <li className="w-full px-6 py-4 duration-500">
+                <Link to="team" smooth={true} offset={-200} duration={400}>
+                Team
+                </Link>
+              </li> 
+
               <li className="w-full px-6 py-4 duration-500">
                 <Link to="services" smooth={true} offset={-200} duration={400}>
                 Services
