@@ -8,7 +8,7 @@ function Services() {
 <Zoom>
     <div id='services' className='flex flex-col h-full lg:mt-[5rem]'>
       <div class="text-center ">
-        <h3 class="text-[21px] md:text-[25px] font-bold text-purple-500  ">Nos Services</h3>
+        <h3 class="text-[21px] md:text-[25px] font-bold text-purple-500 ">Nos Services</h3>
         <h2 class="text-xl md:text-2xl lg:text-4xl text-indigo-500">
           <b>Meilleure Services Client</b></h2>
       </div>

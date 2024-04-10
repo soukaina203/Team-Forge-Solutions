@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import { GiFilmSpool, GiHamburgerMenu } from "react-icons/gi";
+import { IoIosArrowDown } from "react-icons/io";
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <div>
        <nav className="fixed top-0 z-50 w-full bg-white shadow-lg shadow-purple-200">
@@ -14,9 +20,32 @@ function Header() {
           <li className="px-6 py-4 duration-500 underlineHover hover:pointer-auto" > <Link to="home" smooth={true} offset={-100} duration={500}>  Accueil </Link> </li>
           <li className="px-6 py-4 duration-500 underlineHover hover:pointer-auto" > <Link to="about" smooth={true} offset={-100} duration={500}>        À Propos 
  </Link> </li>
-          <li className="px-6 py-4 duration-500 underlineHover" > <Link to="mission" smooth={true} offset={-100} duration={500}>  Mission </Link> </li>
+ <li class="px-6 py-4 duration-500 underlineHover flex" 
+        onClick={toggleDropdown}
+ 
+ >
+ {/* <button
+        className="flex items-center px-6 py-4 duration-500 underlineHover focus:outline-none"
+      > */}
+        <span>Mission  </span> 
+        <span className='mt-1 ml-1'>
+        <IoIosArrowDown  />
+
+        </span>
+      
+      {/* </button> */}
+      {isOpen && (
+        <ul className="absolute z-10 w-36 py-2 bg-white shadow-lg mt-[2rem]">
+          {/* Add your dropdown items here */}
+        
+          {/* Add more dropdown items if needed */}
           <li className="px-6 py-4 duration-500 underlineHover" > <Link to="team" smooth={true} offset={-100} duration={500}>  Team </Link> </li>
           <li className="px-6 py-4 duration-500 underlineHover" > <Link to="services" smooth={true} offset={-100} duration={500}>  Services </Link> </li>
+        </ul>
+ 
+ 
+     ) }
+      </li>
           <li className="px-6 py-4 duration-500 underlineHover" > <Link to="contact" smooth={true} offset={-100} duration={500}>  Contact </Link> </li>
         </ul>
         
