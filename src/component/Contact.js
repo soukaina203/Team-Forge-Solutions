@@ -24,7 +24,7 @@ function Contact() {
               {e.icon}
             </div>
 
-            <p className='text-[20px] font-semibold mt-1'>  {e.content} </p>
+            <p className='text-[17px] lg:text-[20px] font-semibold mt-1'>  {e.content} </p>
 
           </div>
         })}

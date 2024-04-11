@@ -18,8 +18,8 @@ function Services() {
           {datas.map((e)=>{
             return   <div key={e.id} className='h-full max-w-sm pb-6 mx-auto my-auto duration-300 transform shadow-md cursor-pointer hover:-translate-y-1n p-7 hover:shadow-xl'>
             <img  src={`${e.picture}.jpg`} alt="" className='w-[16rem] mt-3 h-[15rem] rounded-lg mr-auto ml-auto' />
-            <h3  className='font-semibold text-center text-[23px] mt-2 '>{e.title}</h3>
-            <p   className=' text-center text-[21px] mb-3'> {e.content} </p>
+            <h3  className='font-semibold text-center text-[19px] lg:text-[23px] mt-2 '>{e.title}</h3>
+            <p   className=' text-center text-[16px] lg:text-[21px] mb-3'> {e.content} </p>
           </div>
           })}
          </div>
