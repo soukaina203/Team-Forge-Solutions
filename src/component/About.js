@@ -7,7 +7,7 @@ function About() {
       <div id="about" className="flex flex-col h-full mt-[5rem] lg:p-[3rem]">
         <div className="flex items-center justify-center w-full">
           {/* First div */}
-          <div className="flex-grow max-w-3xl text-[15px] z-40 p-[2.5rem] lg:p-[3.8rem] md:border-2 rounded-tl-[206.22px] rounded-br-[206px] md:border-purple-400">
+          <div className="flex-grow max-w-3xl text-[15px] z-40 p-[2.5rem] md:p-[3.7rem] lg:p-[3.8rem] md:border-2 rounded-tl-[206.22px] rounded-br-[206px] md:border-purple-400">
             <h3 className="text-[21px] text-purple-500 md:text-[25px] font-bold">
             À Propos de Nous
             </h3>
