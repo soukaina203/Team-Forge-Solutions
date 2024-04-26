@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Team-Forge-Solutions/static/css/main.6ed80746.css",
-    "main.js": "/Team-Forge-Solutions/static/js/main.0695c364.js",
+    "main.css": "/Team-Forge-Solutions/static/css/main.b61d4d80.css",
+    "main.js": "/Team-Forge-Solutions/static/js/main.dd83765b.js",
     "static/js/787.fe0896d5.chunk.js": "/Team-Forge-Solutions/static/js/787.fe0896d5.chunk.js",
     "index.html": "/Team-Forge-Solutions/index.html",
-    "main.6ed80746.css.map": "/Team-Forge-Solutions/static/css/main.6ed80746.css.map",
-    "main.0695c364.js.map": "/Team-Forge-Solutions/static/js/main.0695c364.js.map",
+    "main.b61d4d80.css.map": "/Team-Forge-Solutions/static/css/main.b61d4d80.css.map",
+    "main.dd83765b.js.map": "/Team-Forge-Solutions/static/js/main.dd83765b.js.map",
     "787.fe0896d5.chunk.js.map": "/Team-Forge-Solutions/static/js/787.fe0896d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ed80746.css",
-    "static/js/main.0695c364.js"
+    "static/css/main.b61d4d80.css",
+    "static/js/main.dd83765b.js"
   ]
 }
