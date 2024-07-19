@@ -19,16 +19,16 @@ function Mission() {
           <h2 class="text-xl md:text-2xl lg:text-4xl text-indigo-500 "><b>Meilleure Expérience Client</b></h2>
         </div>
 
-        <div className='container grid justify-center w-auto grid-cols-1 p-10 mx-auto ml-auto mr-auto duration-500 transform place-content-center md:p-8 lg:grid-cols-2 2xl:grid-cols-3 gap-x-4 gap-y-4 '>
+        <div className='container grid justify-center w-auto grid-cols-1 p-10 mx-auto ml-auto mr-auto duration-500 transform place-content-center md:p-8 lg:grid-cols-2 2xl:grid-cols-3 gap-x-5 gap-y-5 '>
           {missions.map((e) => {
             return (
-              <div key={e.id} className='h-full max-w-sm  p-[4rem] pb-6 mx-auto my-auto
+              <div key={e.id} className='h-full max-w-sm  p-[4.8rem] pb-6 mx-auto my-auto
                duration-300 transform shadow-md cursor-pointer hover:-translate-y-1n hover:shadow-xl'>
 
-                <img src={`${e.icon}.png`} key={e.title} alt="" className='text-orange-500 mt-2 w-[3rem] h-[3rem] mx-auto' />
-                <h3 key={e.title} className='font-bold text-center text-[19px] mt-2 lg:mt-[0.7rem] lg:text-xl'>{e.title}</h3>
+                <img src={`${e.icon}.png`} key={e.title} alt="" className=' mt-2 w-[3.7rem] h-[3.7rem] mx-auto' />
+                <h3 key={e.title} className='font-bold text-center text-[19px]  mt-2 lg:mt-[0.7rem] lg:text-[1.6rem] '>{e.title}</h3>
                 <p key={e.title}
-                  className=" md:text-[19px] lg:text-[22px] w-[14rem] mb-4 mx-auto mt-2 text-center">{e.content}</p>
+                  className=" md:text-[19px] lg:text-[19px] w-[15rem] text-gray-700 mb-4 mx-auto mt-2 text-center">{e.content}</p>
               </div>
             );
           })}
