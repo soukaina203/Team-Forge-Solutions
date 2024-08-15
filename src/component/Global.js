@@ -8,9 +8,9 @@ function Global() {
  
     '>
 
-        <Team/>
-    <TeamBuilding
-    />
+      <Team />
+      <TeamBuilding
+      />
     </div>
   )
 }

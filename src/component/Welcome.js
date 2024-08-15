@@ -7,7 +7,7 @@ function Welcome() {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       navigate('/home');
-    }, 2000);
+    }, 1000);
 
     return () => {
       clearTimeout(timeoutId);
