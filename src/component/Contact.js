@@ -136,7 +136,7 @@ const Contact = () => {
                 </li>
 
               </ul>
-            </div>
+            </div>The website for Team Forge Solutions showcases their premier event planning services and defines their brand. It highlights TF-SOL's creativity, excellence, and dedication to crafting unforgettable experiences 
           </div>
         </div>
         </div>
