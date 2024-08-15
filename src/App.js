@@ -5,9 +5,7 @@ import Mission from './component/Mission'
 import About from './component/About'
 import Services from './component/Services'
 import Contact from './component/Contact'
-
 import Global from './component/Global'
-
 
 function App() {
   return (

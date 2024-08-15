@@ -1,5 +1,4 @@
 import React from 'react'
-import Zoom from 'react-reveal/Zoom'; // Importing Zoom effect
 import { HiOutlineMapPin } from "react-icons/hi2";
 import { GrUserExpert } from "react-icons/gr";
 import { GrGroup } from "react-icons/gr";
@@ -15,7 +14,7 @@ function Properties() {
   return (
     <div className="flex items-center justify-center w-full h-full py-8" key="key">
       <div
-     className='grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4'>
+        className='grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4'>
         {Props.map((e) => {
           return (
             <div key={e.id} className=' h-full max-w-md gap-2 flex hover:-translate-y-1n hover:shadow-xl transition-all hover:scale-110  cursor-pointer  duration-300  p-6 

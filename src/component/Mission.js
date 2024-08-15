@@ -1,5 +1,5 @@
 import React from 'react'
-import Zoom from 'react-reveal/Zoom'; // Importing Zoom effect
+import Zoom from 'react-reveal/Zoom'; 
 
 
 function Mission() {
@@ -10,7 +10,7 @@ function Mission() {
   ]
 
   return (
-    <Zoom>{/*Using Zoom Effect*/}
+    <Zoom>
       <div id='mission' className='flex flex-col h-full mt-6 '>
 
         <div class="text-center ">

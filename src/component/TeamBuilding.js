@@ -1,5 +1,5 @@
 import React from 'react';
-import Zoom from 'react-reveal/Zoom'; // Importing Zoom effect
+import Zoom from 'react-reveal/Zoom'; 
 
 function TeamBuilding() {
   return (

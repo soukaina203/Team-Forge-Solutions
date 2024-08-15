@@ -37,6 +37,7 @@ function Header() {
           </h1>
           <ul className="items-center hidden pr-10 text-base font-semibold cursor-pointer lg:flex">
             <li className="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
+              {/* underlineHover => for this class , it is located in the index.css */}
               <Link to="home" smooth={true} offset={-100} duration={500}>Accueil</Link>
             </li>
             <li className="px-6 py-4 duration-500 underlineHover hover:pointer-auto">
@@ -68,22 +69,22 @@ function Header() {
             <GiHamburgerMenu className="mr-5 text-2xl" />
             <div className="fixed top-0 z-40 flex items-center w-8/12 h-screen ml-auto mr-auto text-white transition-all duration-500 bg-indigo-900 opacity-0 md:w-5/12 right-full group-focus:right-0 group-focus:opacity-100">
               <ul className="flex flex-col items-center justify-center w-[98%] font-semibold m-2">
-                <li className="px-6 py-4 uppercase duration-500 rounded-lg  underlineHover w-fit">
+                <li className="px-6 py-4 uppercase duration-500 rounded-lg underlineHover w-fit">
                   <Link to="home" smooth={true} duration={400}>Accueil</Link>
                 </li>
-                <li className="px-6 py-4 uppercase duration-500 rounded-lg  underlineHover w-fit">
+                <li className="px-6 py-4 uppercase duration-500 rounded-lg underlineHover w-fit">
                   <Link to="about" smooth={true} duration={400}>À Propos</Link>
                 </li>
-                <li className="px-6 py-4 uppercase duration-500 rounded-lg  underlineHover w-fit">
+                <li className="px-6 py-4 uppercase duration-500 rounded-lg underlineHover w-fit">
                   <Link to="mission" smooth={true} offset={-200} duration={400}>Mission</Link>
                 </li>
-                <li className="px-6 py-4 uppercase duration-500 rounded-lg  underlineHover w-fit">
+                <li className="px-6 py-4 uppercase duration-500 rounded-lg underlineHover w-fit">
                   <Link to="team" smooth={true} offset={-200} duration={400}>Team</Link>
                 </li>
-                <li className="px-6 py-4 uppercase duration-500 rounded-lg  underlineHover w-fit">
+                <li className="px-6 py-4 uppercase duration-500 rounded-lg underlineHover w-fit">
                   <Link to="services" smooth={true} offset={-200} duration={400}>Services</Link>
                 </li>
-                <li className="px-6 py-4 uppercase duration-500 rounded-lg  underlineHover w-fit">
+                <li className="px-6 py-4 uppercase duration-500 rounded-lg underlineHover w-fit">
                   <Link to="contact" smooth={true} offset={-200} duration={400}>Contact</Link>
                 </li>
               </ul>

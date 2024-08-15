@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import Zoom from 'react-reveal/Zoom'; // Importing Zoom effect
+import Zoom from 'react-reveal/Zoom'; 
 import Properties from './properties';
 
 function Home() {
   return (
-    <Zoom>{/*Using Zoom Effect*/}
+    <Zoom>
       <section id='home' className=' flex flex-col p-4 md:h-[26rem]  lg:h-screen  '>
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="p-4 mr-auto place-self-center lg:col-span-7">
