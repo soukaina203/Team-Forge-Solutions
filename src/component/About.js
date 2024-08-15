@@ -33,7 +33,7 @@ function About() {
           </div>
           
           {/* Image Section */}
-          <div className=" items-end justify-center w-[34rem] h-[25rem] ml-[-4rem] z-40 hidden lg:block">
+          <div className=" items-end justify-center w-full max-w-xl h-full max-h-screen ml-[-4rem] z-40 hidden xl:block">
             <img src="n.png" alt="" className="object-cover w-full h-full" />
           </div>
         </div>

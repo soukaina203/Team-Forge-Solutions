@@ -6,7 +6,7 @@ import { Fade } from 'react-reveal';
 const Contact = () => {
   return (
     <Fade>
-    <div>
+    <div id='contact'>
       <footer
         class="flex flex-col items-center mt-[4rem]
  text-white text-center text-surface ">
@@ -18,15 +18,24 @@ const Contact = () => {
         <div className='flex justify-center w-full bg-black'>
 
         <div class="container px-6 pt-6  ">
-        
+       
+          <a className="ml-1 text-lg font-semibold text-transparent cursor-pointer bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" href="https://tw-elements.com/"
+          >
+                 TF-SOL
 
+          </a>
+        <p className='p-6 text-lg'>
+
+        Le site web de Team Forge Solutions présente ses services de planification d'événements de premier ordre et définit sa marque. Il met en évidence la créativité, l'excellence et l'engagement de TF-SOL à créer des expériences inoubliables.
+        </p>
           <div>
             <form action="">
               <div
                 class="gird-cols-1 grid items-center justify-center gap-4 md:grid-cols-3">
                 <div class="md:mb-6 md:ms-auto">
                   <p>
-                    <strong>Sign up for our newsletter</strong>
+                    <strong>S'inscrire à notre newsletter
+</strong>
                   </p>
                 </div>
 
@@ -136,16 +145,16 @@ const Contact = () => {
                 </li>
 
               </ul>
-            </div>The website for Team Forge Solutions showcases their premier event planning services and defines their brand. It highlights TF-SOL's creativity, excellence, and dedication to crafting unforgettable experiences 
+            </div>
           </div>
         </div>
         </div>
 
         <div class="w-full  bg-black p-4 text-center font-Yantramanav-Black">
           © 2024 Copyright:
-          <a class="font-semibold ml-1" href="https://tw-elements.com/"
+          <a className="ml-1 text-lg font-semibold cursor-pointer " href="https://tw-elements.com/"
           >
-            TFS
+                 TF-SOL
 
           </a>
 
